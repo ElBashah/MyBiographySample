@@ -1,0 +1,91 @@
+.nav-side-menu {
+    overflow: auto;
+    float: left;
+    font-family: verdana;
+    font-size: 12px;
+    font-weight: 200;
+    background-color: #2e353d;
+    position: fixed;
+    top: 0px;
+    width: 300px;
+    height: 100%;
+    color: #e1ffff;
+  }
+  
+  @media (min-width: 767px) {
+    .nav-side-menu {
+      display: block;
+    }
+    #main {
+        width:calc(100% - 300px);
+        float: right;
+    }
+  }
+  
+  body {
+    margin: 0px;
+    padding: 0px;
+    background-color: lightgray;
+  }
+  
+  .nav-side-menu .contact-card{
+      float: top;
+      background-color: #ffffff;
+      border-radius: 25px;
+      opacity: 0.5;
+      width: 90%;
+      height: 30%;
+      margin-top: 4%;
+      margin-left: 4%;
+  }
+  
+  .contact-card img{
+      height: 50%;
+      border-radius: 100%;
+      margin-left: 28%;
+      margin-top: 5%;
+  }
+  
+  .contact-card p{
+      text-align: center;
+      color: #000;
+      font-weight: bold;
+  }
+  
+  a:link, a:visited {
+    background-color: lightgray;
+    color: #000;
+    opacity: 0.8;
+    border-radius: 10px;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 40%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-weight: bold;
+  
+  }
+  
+  a:hover, a:active {
+    background-color: red;
+  }
+  
+  .row{
+      background-color: gray;
+      opacity: 0.7;
+      border-radius: 10px;
+  }
+  
+  .summary{
+      border: 2px solid gray;
+      border-radius: 10px;
+      font-size: 20pt;
+      margin-left: 5px;
+      margin-right: 5px;
+  }
+  #icon{
+      width: 60px;
+      height: 60px;
+  }
